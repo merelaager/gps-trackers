@@ -19,7 +19,7 @@ meshtastic --set-owner "$LongName" --set-owner-short "$ShortName" `
   --set telemetry.environment_screen_enabled true `
   --set telemetry.environment_update_interval 120 `
   --ch-index 0 `
-  --ch-set name "MerelaagerSailboats" `
+  --ch-set name "Merelaager" `
   --ch-set psk "base64:puavdd7vtYJh8NUVWgxbsoG2u9Sdqc54YvMLs+KNcMA=" `
   --ch-set module_settings.position_precision 32 `
   --pos-fields TIMESTAMP HEADING SPEED

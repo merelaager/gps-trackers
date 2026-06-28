@@ -3,8 +3,11 @@ from datetime import datetime
 import paho.mqtt.client as mqtt
 
 BOATS = {
-    0x479e21ea: "QUBA1",
     0x0fd8badc: "Receiver",
+    0x479e21ea: "QUBA1",
+    0xe592a74b: "QUBA2",
+    0x22554c7d: "QUBA3",
+    0x36ee148d: "QUBA4",
 }
 
 def on_connect(client, userdata, flags, rc, props):
