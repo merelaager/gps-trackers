@@ -1,6 +1,15 @@
 # GPS Trackers
 
 ## Example data packets (MQTT Explorer):
+The data can be subscribed on MQTT open servers:
+```
+Server: mqtt.meshtastic.org
+Protocol: mqtt://
+Port: 1883
+Username: meshdev
+Password: large4cats
+Topic: msh/EU_868/merelaager/#
+```
 
 ```
 {"channel":0,"from":1201545706,"hop_start":2,"hops_away":0,"id":3702202712,"payload":{"barometric_pressure":1010.40435791016,"relative_humidity":36.5791015625,"temperature":34.5},"rssi":-26,"sender":"!0fd8badc","snr":10,"timestamp":1782654887,"to":4294967295,"type":"telemetry"}
